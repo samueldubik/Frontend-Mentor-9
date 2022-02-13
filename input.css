@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .layout {
+        @apply mt-4 px-4 mx-auto w-11/12 max-w-[450px];
+    }
+
+    .box {
+        @apply border-t-[6px] shadow-xl rounded-md my-10 p-8 h-[250px] max-w-[500px];
+    }
+
+    .section-header {
+        @apply text-2xl font-semibold text-blue-dark;
+    }
+
+    .paragraph {
+       @apply font-normal text-sm text-blue-gray mt-3;
+    }
+
+    .icon {
+        @apply mt-5 ml-auto;
+    }
+
+}
