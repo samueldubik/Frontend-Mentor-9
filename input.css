@@ -10,7 +10,7 @@
     }
 
     .box {
-        @apply border-t-[6px] shadow-xl rounded-md my-10 p-8 h-[250px] max-w-[500px];
+        @apply border-t-[6px] shadow-xl rounded-md my-10 p-8 h-[218px] max-w-[500px];
     }
 
     .section-header {
